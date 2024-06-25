@@ -1,0 +1,74 @@
+*{
+    font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#aaaa{
+    position: absolute;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    top: 0;
+    left: 0;
+}
+#aaaa:link{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+main{
+    width: 700px;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, 0.545);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#aa{
+    width: 50%;
+    height: default;
+    border-radius: 10px;
+    border: 4px black solid;
+    background-color: transparent;
+    margin: 15px;
+}
+#aaa{
+    color: black;
+    text-decoration: none;
+}
+#aaa:active{
+    color: black;
+    text-decoration: none;
+}
+#aaa:visited{
+    color: black;
+    text-decoration: none;
+}
+h1{
+    position: absolute;
+    top: 0px;
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(95, 95, 252);
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+}
